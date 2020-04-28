@@ -30,8 +30,7 @@ Choose the tools of your interest to design, create and deploy an interactive we
 Select the file: index.html<br>
 To open the server type <strong>python3 -m http.server 8080</strong>
 
-## Tools
-Was used:
+## Libraries and Frameworks used
 • Bootstrap
 • NodeJs
 • Jquery
@@ -42,7 +41,13 @@ Was used:
 
 ## Contextualizing
 #### Objective
-The purpose of this site is to present both a traditional form of curriculum, introducing myself as a person to be hired by the company and to provide various services.
+The purpose of this site is to present a traditional form of curriculum, introducing myself as a person to be hired by the company and to provide various services.
+
+#### Initial idea
+The initial idea was to create several .html files each being called by a link on the main page.<br>
+In the beginning, it would be created in HTML language and simple CSS with small CSS animations for the menu.<br>
+Fewer images would be used and the body of the file would be more textual.<br>
+However, after taking a quick Bootstrap course, I decided to apply this tool by formatting the site with a more interactive, intuitive and modern look.
 
 #### Layout
 The layout was chosen so that it was easy to view and easy to navigate.
@@ -59,6 +64,17 @@ contact form
 #### Colour
 The colour chosen for this website was blue.
 The reason for this choice is because of this colour is associated with depth and stability, loyalty, wisdom, confidence, intelligence, truth and heaven and is usually used to promote products and services related to cleanliness or to suggest precision when promoting high-tech products.
+
+#### Comments
+The code has a large amount of comment because it is an academic work and new tools were used to build this
+
+#### Problems occurred and solutions
+As Bootstrap is a new framework for me, at first it was a little difficult due to the amount of DIV that it includes in the code, sometimes causing me to close the tag in the wrong places generating a different layout than I had planned. however, with the insertion of comments for each section, the preconceived problems were solved.
+<br><br>
+Another problem that occurred was the reading of a created CSS file. As the CSS files were being used in Saas, therefore, SCSS, they were not being compiled causing a layout disruption.
+To solve this problem, a style folder was created inside the main folder and inside the style folder, two others were created: CSS and SCSS respectively.
+With the appropriate CSS files in these folders, it was possible to compile the CSS code via SaaS generating the chosen layout.
+
 
 ## GDPR
 The images used were personal pictures.<br>
